@@ -1,0 +1,243 @@
+\documentclass[10pt,foldmark,notumble]{leaflet}
+\renewcommand*\foldmarkrule{.3mm}
+\renewcommand*\foldmarklength{5mm}
+
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{mathptmx}
+\usepackage{xcolor}
+\usepackage[scaled=0.9]{helvet}
+\makeatletter
+\def\ptmTeX{T\kern-.1667em\lower.5ex\hbox{E}\kern-.075emX\@}
+\DeclareRobustCommand{\ptmLaTeX}{L\kern-.3em
+        {\setbox0\hbox{T}%
+         %\vb@xt@ % :-)
+         \vbox to\ht0{\hbox{%
+                            \csname S@\f@size\endcsname
+                            \fontsize\sf@size\z@
+                            \math@fontsfalse\selectfont
+                            A}%
+                      \vss}%
+        }%
+        \kern-.12em
+        \ptmTeX}
+\makeatother
+\let\TeX=\ptmTeX
+\let\LaTeX=\ptmLaTeX
+\usepackage{shortvrb}
+\MakeShortVerb{\|}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{blindtext}
+
+%%%%\renewcommand{\descfont}{\normalfont}
+\newcommand\Lpack[1]{\textsf{#1}}
+\newcommand\Lclass[1]{\textsf{#1}}
+\newcommand\Lopt[1]{\texttt{#1}}
+\newcommand\Lprog[1]{\textit{#1}}
+\definecolor{LIGHTGRAY}{gray}{.8}
+
+\newcommand*\defaultmarker{\textsuperscript\textasteriskcentered}
+
+
+\title{Computer Upgrade Frequently Asked Questions}
+
+\author{Penn Manor School District}
+\date{Summer 2013}
+
+\CutLine*{1}% Dotted line without scissors
+\CutLine*{6}% Remove * for scissors
+
+%\AddToBackground{1}{%  Background of a small page
+%  \put(0,0){\textcolor{Cerulean}{\rule{\paperwidth}{\paperheight}}}}
+
+
+\AddToBackground{1}{%  Background of a small page
+  \put(115,530){\includegraphics[scale=0.15]{images/logo.jpg}}}
+
+
+%\AddToBackground{6}{%  Background of a small page
+%  \put(0,0){\textcolor{YellowOrange}{\rule{\paperwidth}{\paperheight}}}}
+
+
+\AddToBackground*{2}{% Background of a large page
+  \put(\LenToUnit{.5\paperwidth},\LenToUnit{.5\paperheight}){%
+    \makebox(0,0)[c]{%
+      \resizebox{.9\paperwidth}{!}{\rotatebox{35.26}{%
+        \textsf{\textbf{\textcolor{LIGHTGRAY}{Penn Manor}}}}}}}}
+
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\section{Professional Development Questions\color{red}\hrulefill\color{black}} 
+\textbf{What professional development will be provided?}\\
+The District Technology Team will offer short introductions to your device when you pick it up over the summer.
+
+Professional development for the elementary level will begin at the Summer In-Service days and continue throughout the school year.
+
+Professional development schedules for Manor Middle will be announced.
+
+\textbf{What can I do to prepare for the new computers?}\\
+The majority of the file conversion and preparation will be completed by Technology Support Staff at or shortly following the In-Service days. 
+
+Cease using iWork applications (Pages, Keynote, Numbers) and instead begin the transition to portable formats such as Microsoft Office, LibreOffice, or Google Docs.
+
+\textbf{Why is iWork no longer available?}\\
+In previous Tech Surveys, it has been noted that a minority of staff use iWork (Pages, Numbers, Keynote), and instead focus on Microsoft Office. For this reason, combined with the fact that Apple Inc.\ no longer offers Educational Licensing, we've omitted iWork in favor of Microsoft Office and Google Drive. 
+
+Further, Microsoft Office allows creation of documents that will work on all devices; Mac, PC, and Linux. This interoperability is a key factor in the upcoming Student 1-to-1 Initiative. 
+
+\section{Common Computer Upgrade Questions\color{red}\hrulefill\color{black}}
+\textbf{Can I transfer my personal music from the old Mac to my new device?}\\
+No. Personal music and photos will not be transferred to the new devices. Staff should back up their personal files on to their own external drives.
+
+\textbf{Can I keep my old Mac?}\\
+All staff have the option to keep their current MacBook devices until December 2013. The District Technology Team will offer assistance in file conversion and backups. \emph{However, absolutely no repairs or updates will be offered for these devices}. 
+
+Staff are encouraged to return their old devices as soon as they are comfortable so that they may be used to repair and replace the student cart devices.
+
+\section{Common Windows Questions\color{red}\hrulefill\color{black}}
+\textbf{What version of Windows do I have?}\\
+The Acer Aspire V5 laptops are loaded with Windows 8 Professional. 
+
+\textbf{How do I update software?}\\
+All software will be updated automatically, and installed upon Shutdown. \emph{As such, it is very important to shut your computer down at the end of each day.}
+
+If you do not shut down each day, the number of queued updates will accumulate and will exponentially increase the amount of time taken to boot up.
+
+\textbf{Are students permitted to use my Android Tablet?}\\
+Students are permitted to use staff tablets, strictly under supervision of the staff member. Please be aware that the students may access, edit, or delete any applications and data on the tablet.
+
+\section{Useful Windows Applications\color{red}\hrulefill\color{black}}
+\textbf{Snipping Tool}\\
+Start $\to$ Snipping Tool - This app captures and saves screen shots, useful for sharing info on Moodle or including images to Tech Support issues.
+
+\textbf{SplashTop}\\
+Start $\to$ SplashTop Streamer - This app allows the Android tablet to remotely control your computer.
+
+\textbf{Paint.Net}\\
+Start $\to$ Pant.Net - This app is a simple painting program. Combined with the touch-screen, it can be used to quickly and easily convey visual information.
+
+%\textbf{Evernote}\\
+%Start $\to$ Evernote - This app allows you to collect and create notes and multimedia `snippets'. The service also runs on Android and OSX. 
+
+\section{Windows Alternatives to Mac Applications\color{red}\hrulefill\color{black}}
+\textbf{iPhoto $\to$ XnView}\\
+XnView allows for photo organization and album creation similar to iPhoto
+
+\textbf{iMovie $\to$ Windows Movie Maker}\\
+Windows Movie Maker allows you to import clips and create movie projects with a visual editor similar to iMovie.
+
+\textbf{GarageBand $\to$ Audacity}\\
+Audacity performs similarly to GarageBand in that you may easily record and manipulate audio. 
+
+\textbf{Pages $\to$ Publisher}\\
+Micosoft Publisher is a newsletter/flyer typesetting application. This will allow you to create worksheets for your students or newsletters for your blog.
+
+\section{Windows 8 Shortcuts\color{red}\hrulefill\color{black}}
+\textbf{Windows Key \emph{(Tap)}}\\
+Toggle between the Start Screen and most recently opened app. Typically toggles between Desktop and Start Screen.
+
+\textbf{Windows Key + \emph{Begin Typing Text}}\\
+Search your computer for typed text - useful to find an application or file
+
+\textbf{Windows Key + E}\\
+Open Windows Explorer. Quick access for files, favorite folders, server folders, CD/DVDs and other file management utilities.
+
+\textbf{Windows Key + Arrow Keys}\\
+Arrange desktop windows on your screen. Win + Left/Right will fill the left/right half of your screen, respectively, and Win + Up will `Maximize' the window to fill the screen.
+
+\textbf{Windows Key + C}\\
+Open the `Charms' menu. Quick access for Start Menu, Settings, and Shutdown Options.
+
+\textbf{Windows Key + Pause Break}\\
+Open the System Info window. This page lists the system info, computer name, and Tech Support information.
+
+\section{Common Mac Questions\color{red}\hrulefill\color{black}}
+\textbf{What version of Mac OSX do I have?}\\
+The Apple MacBook Pro devices are loaded with OSX 10.8 Mountain Lion. 
+
+\textbf{How do I update software?}\\
+All software will be updated via Self Service. Currently, updates for OSX 10.8 occur weekly so it is very important to use Self Service often.
+
+Various optional software programs are also available to be installed or upgraded on Self Service.
+
+%\section{Useful Mac Applications\color{red}\hrulefill\color{black}}
+%\textbf{Self Service}\\
+%Launchpad $\to$ Self Service - This app allows you to install or update software without having to submit a Tech Support Ticket. Also used to install frequent OSX software updates. 
+
+%\textbf{GIMP}\\
+%Launchpad $\to$ GIMP - This app is an open-source image manipulation program, similar to Photoshop. 
+
+\section{Mac OSX 10.8 Shortcuts\color{red}\hrulefill\color{black}}
+\textbf{Command + Q}\\
+Quit the currently active application. %Remember that applications will run in the background if the 'Red Circle' is clicked.
+
+\textbf{Command + Mouse Click}\\
+Bring up an `options' menu, allowing you to perform actions on the selected files or folders.
+
+\textbf{Command + Space}\\
+Activate `Spotlight' to search for files and applications.
+
+\textbf{Control + Command + Eject}\\
+Restart the computer.
+
+\textbf{Control + Option + Command + Eject}\\
+Shut down the computer.
+
+\textbf{4-Finger Swipe Left/Right}\\
+Switch between full screen applications and apps. 
+
+\textbf{\emph{(Google Chrome)} 2-Finger Swipe Left/Right}\\
+Navigate Back or Forward through web history. Same as hitting the `Back' or `Forward' button.
+
+\section{Important 2013 Dates\color{red}\hrulefill\color{black}}
+\begin{description}
+\item[May 21st] \dotfill Upgrade Preparation In-Service Session
+\item[May 31st] \dotfill Beta-Test Group Deployment
+\item[June 30th] \dotfill File Transfer Folder Deadline
+\item[August 14th-15th] \dotfill Upgrade In-Service Trainings
+\item[November] \dotfill Tablet Deployment
+\item[December 31st] \dotfill End of File Transfer Support 
+\end{description}
+
+\section{Technology Troubleshooting Procedure\color{red}\hrulefill\color{black}}
+\begin{enumerate}
+\item \textbf{Restart the computer} before doing anything else.
+\item \textbf{If the issue is:}
+\begin{enumerate}
+\item \textbf{Student machine issue:}\\Call Help Desk at \emph{ext. 1776} or submit a ticket.
+\item \textbf{Emergency `Show-Stopper' issue:}\\Email Gina \textbf{\emph{and}} building tech directly.
+\item \textbf{`How to do $\chi$' or a `Frequently Asked Question':}\\Check the Tech Support Knowledgebase on the Ticket Website for instructional articles.
+\item \textbf{All other issues:} Submit a Tech Ticket.
+\end{enumerate}
+\end{enumerate}
+
+\section{District Technology Staff\color{red}\hrulefill\color{black}}
+
+\begin{description}
+\item[Charlie Reisinger] \dotfill District Technology Director
+\item[Shawn Beard] \dotfill Enterprise Systems Engineer
+\item[Chad Billman] \dotfill Systems Engineer
+\item[Dianne Bates] \dotfill State Reporting Data Specialist
+\item[Gina Brubaker] \dotfill Help Desk Specialist\\{\scriptsize Buildings Serviced: \hfill \textbf{\color{red}District-wide}\color{black}}
+\item[Shelby Foster] \dotfill Tech Support Specialist\\{\scriptsize Buildings Serviced: \hfill \textbf{\color{red}Central Manor, Martic and Marticville Middle}\color{black}}
+\item[Alex Lagunas] \dotfill Tech Support Specialist\\{\scriptsize Buildings Serviced: \hfill \textbf{\color{red}High School}\color{black}}
+\item[Jason Sauders] \dotfill Tech Support Specialist\\{\scriptsize Buildings Serviced: \hfill \textbf{\color{red}Hambright, Letort and Pequea}\color{black}}
+\item[Tom Swartz] \dotfill Tech Support Specialist\\{\scriptsize Buildings Serviced: \hfill \textbf{\color{red}Conestoga, Eshleman and Manor Middle}\color{black}}
+\end{description}
+
+
+\section{Common Web Sites\color{red}\hrulefill\color{black}}
+\begin{itemize}
+\item \url{http://support.pennmanor.net}\\Tech Support Ticket System and Knowledgebase
+\item \url{http://filter.pennmanor.net}\\Web Filter to view YouTube and other blocked sites
+\item \url{https://cloud.pennmanor.net}\\Penn Manor Cloud Backup service
+\end{itemize}
+
+\section{Notes\color{red}\hrulefill\color{black}}
+
+\end{document}
