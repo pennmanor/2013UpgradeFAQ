@@ -1,5 +1,5 @@
-2013UpgradeFAQ
-==============
+Computer Upgrade FAQ
+====================
 This repository contains information related to the 2013 Elementary and 2014 HS Computer Upgrades.
 
 This Frequently Asked Questions sheet was distributed to Elementary and Manor Middle School staff prior to the 2013 Summer Upgrade.
